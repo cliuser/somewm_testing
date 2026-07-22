@@ -1,0 +1,6 @@
+#!/bin/dash -f
+#	--force updates running client
+echo $PWD
+somewm-client test start --host x11 -c $PWD/rc.lua --force > msgs 2>&1
+echo 'type "somewm-client test stop -name test" to stop client.'
+echo 'or run ./stop_test'

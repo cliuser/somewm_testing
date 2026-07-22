@@ -1,0 +1,6 @@
+#!/bin/dash -f
+somewm-client test stop -name test
+pkill somewm
+pkill somewm-client
+pkill awesome
+#	end

@@ -1,0 +1,10 @@
+#!/bin/dash -f
+#	test sue_asesome
+
+pkill awesome
+pkill somewm
+
+cp rc.lua rc.lua.test		# silence awmtt whine
+awmtt start -C $PWD/rc.lua.test > msgs 2>&1		# run it
+rm rc.lua.test
+if [ ! -s msgs ]; then rm msgs; fi

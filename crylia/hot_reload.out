@@ -1,0 +1,24 @@
+W: /usr/share/somewm/lua/awful/mouse/init.lua:381: invalid cursor left_ptr
+somewm: hot-reload: starting in-process Lua state rebuild
+somewm: hot-reload: removed 10 stale GLib sources (baseline=77, new_baseline=4131)
+somewm: lgi_guard: bumped to generation 1 (wrapped 2234/2234, blocked 0)
+somewm: hot-reload: old Lua state leaked, creating fresh state
+2026-07-22 11:35:57 W: somewm: a_dbus_request_name:577: already primary D-Bus name owner for org.awesomewm.awful
+W: /usr/share/somewm/lua/awful/remote.lua:20: cannot add signal org.awesomewm.awful.Remote on D-Bus, already existing
+2026-07-22 11:35:57 W: awesome: An error occurred before a screen was added
+2026-07-22 11:35:57 W: somewm: luaA_dofunction:82: error in error handling
+2026-07-22 11:35:57 W: somewm: luaA_dofunction:82: /usr/share/somewm/lua/naughty/core.lua:699: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	/usr/share/somewm/lua/naughty/core.lua:699: in function 'func'
+	/usr/share/somewm/lua/gears/object.lua:177: in function 'func'
+	/usr/share/somewm/lua/gears/object.lua:145: in function 'emit_signal'
+	/usr/share/somewm/lua/naughty/notification.lua:1100: in function 'notify'
+	./src/core/error_handling.lua:17: in function <./src/core/error_handling.lua:11>
+	[C]: in function '_scan_quiet'
+	/usr/share/somewm/lua/awful/screen/dpi.lua:315: in function </usr/share/somewm/lua/awful/screen/dpi.lua:311>
+2026-07-22 11:35:57 W: somewm: luaA_dofunction:82: /usr/share/somewm/lua/awful/screen/dpi.lua:315: attempt to call field '_scan_quiet' (a nil value)
+stack traceback:
+	/usr/share/somewm/lua/awful/screen/dpi.lua:315: in function </usr/share/somewm/lua/awful/screen/dpi.lua:311>
+somewm: hot-reload: complete (0 clients, 0 screens, 0 tags reset)
+somewm: lgi_guard: generation 1 marked ready
