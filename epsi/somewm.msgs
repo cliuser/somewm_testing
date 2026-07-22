@@ -1,0 +1,17 @@
+W: /usr/share/somewm/lua/awful/mouse/init.lua:381: invalid cursor left_ptr
+2026-07-22 02:15:26 E: awesome: Failed to get list of keyboard groups
+
+2026-07-22 02:19:58 W: somewm: mouse_emit_leave:4139: mouse::leave on unregistered drawin 0x7f2d21f3c968
+2026-07-22 02:19:58 W: somewm: luaA_object_emit_signal:308: Trying to emit signal 'mouse::leave' on non-object
+2026-07-22 02:20:26 W: somewm: mouse_emit_leave:4139: mouse::leave on unregistered drawin 0x7f2d2379e8d0
+2026-07-22 02:20:26 W: somewm: luaA_object_emit_signal:308: Trying to emit signal 'mouse::leave' on non-object
+2026-07-22 02:20:51 W: somewm: mouse_emit_drawin_enter:4173: mouse::enter on unregistered drawin 0x7f2d03af28f8
+2026-07-22 02:20:51 W: somewm: luaA_object_emit_signal:308: Trying to emit signal 'mouse::enter' on non-object
+2026-07-22 02:20:51 W: somewm: motionnotify:4398: mouse event on unregistered drawin 0x7f2d03af28f8
+2026-07-22 02:20:51 W: somewm: mouse_emit_leave:4139: mouse::leave on unregistered drawin 0x7f2d03af28f8
+2026-07-22 02:20:51 W: somewm: luaA_object_emit_signal:308: Trying to emit signal 'mouse::leave' on non-object
+2026-07-22 02:20:56 W: somewm: mouse_emit_drawin_enter:4173: mouse::enter on unregistered drawin 0x7f2d03af28f8
+2026-07-22 02:20:56 W: somewm: luaA_object_emit_signal:308: Trying to emit signal 'mouse::enter' on non-object
+2026-07-22 02:20:56 W: somewm: motionnotify:4398: mouse event on unregistered drawin 0x7f2d03af28f8
+2026-07-22 02:20:56 W: somewm: mouse_emit_leave:4139: mouse::leave on unregistered drawin 0x7f2d03af28f8
+2026-07-22 02:20:56 W: somewm: luaA_object_emit_signal:308: Trying to emit signal 'mouse::leave' on non-object

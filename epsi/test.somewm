@@ -1,0 +1,4 @@
+#!/bin/csh -f
+somewm-client test start  --config rc.lua --host x11 --force >& msgs
+#	[--no-marker]
+#	[--keybinds auto|inhibit|remap|none]

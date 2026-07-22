@@ -1,0 +1,7 @@
+test 'test': pid 14595 on wayland-0 (host: x11), config /mnt/PROJECTS/somewm_testing/epsi/rc.lua
+  keybinds: host=x11, no shortcut-inhibitor negotiation needed
+  log:      /run/user/1000/somewm-test/test/log
+  socket:   /run/user/1000/somewm-test/test/ipc.sock
+  next:     somewm-client test run  --name test -- alacritty
+            somewm-client test eval --name test 'return mouse.coords()'
+            somewm-client test stop --name test
